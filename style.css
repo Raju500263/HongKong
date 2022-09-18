@@ -24,11 +24,13 @@ body {
 .half-width {
     width: 50%;
     padding-left: 5%;
+    padding-right: 5%;
 
 }
 
 .flexible-container {
     display: flex;
+    align-items: center;
 
 
 }
@@ -55,4 +57,14 @@ body {
 
 .font-text {
     color: #1a2e35;
+}
+
+.fastpic {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 5%;
+    width: 450px;
+    display: flex;
+    padding-left: 150px;
 }
