@@ -18,6 +18,7 @@ body {
 .red-color {
     color: #ff4f5a;
     display: block;
+
 }
 
 .half-width {
@@ -32,12 +33,26 @@ body {
 
 }
 
-
-.half-width h1 {
+#ra255 {
+    border-top: 0px;
+    border-bottom: 0;
+    line-height: 0px;
     font-size: 60px;
-    line-height: normal;
+    font-family: 'Roboto', sans-serif;
+    color: #1a2e35;
 
 
+}
 
+#ra256 {
+    line-height: 60px;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5px;
+    color: #1a2e35;
 
+}
+
+.font-text {
+    color: #1a2e35;
 }
